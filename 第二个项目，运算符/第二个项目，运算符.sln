@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第一课（convert类型转换", "第一课（convert类型转换.csproj", "{6F0D0054-107C-4DA4-8983-C5023A845C46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第二课（加加减减", "..\第二课（加加减减\第二课（加加减减.csproj", "{19442D28-4059-422D-B364-3AF17ED0CD39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第三课（关系运算符和逻辑运算符复合赋值运算符", "..\第三课（关系运算符和逻辑运算符\第三课（关系运算符和逻辑运算符复合赋值运算符.csproj", "{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第四课（闰年判断练习", "..\第四课（闰年判断\第四课（闰年判断练习.csproj", "{39668040-68AB-4474-B36A-F1AFA75E8FA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第五课（if结构和if-else的练习", "..\第五课（if结构\第五课（if结构和if-else的练习.csproj", "{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第五课练习", "..\第五课练习\第五课练习.csproj", "{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第六课（运算符总结", "..\第六课（运算符总结\第六课（运算符总结.csproj", "{AC470272-2E65-4267-9300-5038952FADDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.运算符", "2.运算符", "{6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0D0054-107C-4DA4-8983-C5023A845C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0D0054-107C-4DA4-8983-C5023A845C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0D0054-107C-4DA4-8983-C5023A845C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0D0054-107C-4DA4-8983-C5023A845C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19442D28-4059-422D-B364-3AF17ED0CD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19442D28-4059-422D-B364-3AF17ED0CD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19442D28-4059-422D-B364-3AF17ED0CD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19442D28-4059-422D-B364-3AF17ED0CD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39668040-68AB-4474-B36A-F1AFA75E8FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39668040-68AB-4474-B36A-F1AFA75E8FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39668040-68AB-4474-B36A-F1AFA75E8FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39668040-68AB-4474-B36A-F1AFA75E8FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC470272-2E65-4267-9300-5038952FADDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC470272-2E65-4267-9300-5038952FADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC470272-2E65-4267-9300-5038952FADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC470272-2E65-4267-9300-5038952FADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F0D0054-107C-4DA4-8983-C5023A845C46} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{19442D28-4059-422D-B364-3AF17ED0CD39} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{626EE09F-40DF-4446-9FBC-02E7F4B1AC3D} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{39668040-68AB-4474-B36A-F1AFA75E8FA1} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{F2191BD2-BEB3-4FEC-AB29-6FFEBC295B2C} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{C6BFB428-AC3D-41E9-B5B7-17D05546A1C5} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+		{AC470272-2E65-4267-9300-5038952FADDD} = {6EAC34B4-4E8F-456D-A811-04E3D4ABD38A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {197A3EF1-3177-4B2F-B352-A08E70172911}
+	EndGlobalSection
+EndGlobal

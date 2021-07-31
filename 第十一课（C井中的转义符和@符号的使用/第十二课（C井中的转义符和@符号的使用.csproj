@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>第十一课_C井中的转义符和_符号的使用</RootNamespace>
+  </PropertyGroup>
+
+</Project>
