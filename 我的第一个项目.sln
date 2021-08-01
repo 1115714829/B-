@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第五课（while循环", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第六课（break的用法和练习", "第五课（break的用法和练习\第六课（break的用法和练习.csproj", "{BE6150E1-5366-402A-A69A-F0E290ADDC88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第六课（接之前break练习", "第六课（接之前break练习\第六课（接之前break练习.csproj", "{54F56E55-E621-4485-99B2-95BE14D82837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第六课（接之前break练习", "第六课（接之前break练习\第六课（接之前break练习.csproj", "{54F56E55-E621-4485-99B2-95BE14D82837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第七课（do-while循环", "第七课（do-while循环\第七课（do-while循环.csproj", "{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,6 +205,10 @@ Global
 		{54F56E55-E621-4485-99B2-95BE14D82837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54F56E55-E621-4485-99B2-95BE14D82837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54F56E55-E621-4485-99B2-95BE14D82837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{CE475426-F71B-4583-92CF-13457565107D} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{BE6150E1-5366-402A-A69A-F0E290ADDC88} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{54F56E55-E621-4485-99B2-95BE14D82837} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
+		{B1F9C548-0BAF-4B3D-8F02-C4B53D764096} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B565BF20-192A-4843-BF01-802C438927A7}
