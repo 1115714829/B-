@@ -123,6 +123,7 @@ namespace 第六课_接之前break练习
             #region 练习5
             //提示用户输入yes或者y
             //要求：只能输入yes或者y，只要不是这两个就一直要求用户输入
+            Console.WriteLine("输入yes或者y");
             string s = Console.ReadLine();
             while (s != "yes" && s != "y")
             {
@@ -134,9 +135,11 @@ namespace 第六课_接之前break练习
             //只要用户名错误或者密码错误就重新输入
             //但是最多只能输入3次
             int cishu1 = 0;
-            string username = "";
-            string passwd = "";
-            while (username != "admin" && username != "888888" && cishu1 < 3)
+            Console.WriteLine("你好，请输入用户名");
+            string username =Console.ReadLine();
+            Console.WriteLine("你好，请输入密码");
+            string passwd = Console.ReadLine();
+            while (username != "admin" && username != "888888" || cishu1 < 3)
             {
                 Console.WriteLine("请输入用户名");
                 username = Console.ReadLine();
@@ -145,11 +148,18 @@ namespace 第六课_接之前break练习
                 cishu1++;
                 if (cishu1 == 3)
                 {
-                    Console.WriteLine("广咁多做咩啊，输入3次都能输入错？这都不会？回家呛条焦啦");
+                    Console.WriteLine("广咁多做咩啊，输入3次都能输入错？这都不会？回家呛条焦啦.");
+                }
+                else if(username != "admin" && username != "888888")
+                    {
+                    Console.WriteLine("用户名密码输入错误，请重试!");
+                }
+                else
+                {
+                    Console.WriteLine("登陆成功");
+                    break;
                 }
             }
-            
-
             #endregion
         }
     }
