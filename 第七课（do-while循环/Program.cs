@@ -55,13 +55,69 @@ namespace 第七课_do_while循环
              */
             //不断要求用户输入学生姓名,输入q结束.
 
-            
 
+            //1.不断要求用户输入学生姓名,输入q结束.
+            Console.WriteLine("请输入姓名,按Q结束程序");
+            int number = 0;
+            string jieshu = "";
+            do
+            {
+                string name = Console.ReadLine();
+                if (name == "q")
+                {
+                    Console.WriteLine("程序结束");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("请输入姓名,按Q结束程序");
+                }
+                number++;
+            } while (number > 0);
 
+            //2.不断要求用户输入一个数字，然后打印这个数字的二倍，当用户输入q的时候程序退出.
+            //循环体：提示用户输入一个数字，接受 转换打印2倍
+            //循环条件：输入的不能是Q
+            Console.WriteLine("请输入任意纯数字，我们将打印这个数字的二倍");
+            string num = "";
+            int ci = 0;
+            do
+            {
+                num = Console.ReadLine();
+                ci++;
+                if (num == "q")
+                {
+                    Console.WriteLine("您输入的是q，程序结束");
+                    break;
+                }
+                else
+                {
+                    double jieguo = Convert.ToDouble(num) * 2;
+                    Console.WriteLine("{0}这个数字的二倍是{1}", num, jieguo);
+                }
+            } while (ci > 0);
 
+            //3.不断要求用户输入一个数字〈假定用户输入的都是正整数>，当用户输入end的时候显示刚才输入的数字中的最大值
+            string shuzi = "";
+            int cishu = 0;
+            int max = 0;
+            Console.WriteLine("请输入一个数字");
+            do
+            {
+                shuzi = Console.ReadLine();
+                cishu++;
+                if (shuzi == "end")
+                {
+                    break;
 
-
-
+                }
+                int tmp = Convert.ToInt32(shuzi);
+                if (max < tmp)
+                {
+                    max = tmp;
+                }
+            } while (shuzi != "end");
+            Console.WriteLine("刚才输入的最大值是{0}", max);
         }
     }
 }
