@@ -75,15 +75,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第六课（接之前break�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第七课（do-while循环", "第七课（do-while循环\第七课（do-while循环.csproj", "{B1F9C548-0BAF-4B3D-8F02-C4B53D764096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第八课（总结前几天知识点", "第八课（总结前几天知识点\第八课（总结前几天知识点.csproj", "{88FB1D6F-B0CC-4341-9D1E-B357D47DE60D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第八课（总结前几天知识点", "第八课（总结前几天知识点\第八课（总结前几天知识点.csproj", "{88FB1D6F-B0CC-4341-9D1E-B357D47DE60D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第九课（复习", "第九课（复习\第九课（复习.csproj", "{E392E180-A3D0-45E3-A5CA-1E4C3F550099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第九课（复习", "第九课（复习\第九课（复习.csproj", "{E392E180-A3D0-45E3-A5CA-1E4C3F550099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十课（B站58课，断点调试", "第十课（B站58课，断点调试\第十课（B站58课，断点调试.csproj", "{C0D0BB74-A79E-4692-8D5D-CEADD3DE588B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第十课（B站58课，断点调试", "第十课（B站58课，断点调试\第十课（B站58课，断点调试.csproj", "{C0D0BB74-A79E-4692-8D5D-CEADD3DE588B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十一课（B站49课 for循环 语法", "第十一课（for循环 语法\第十一课（B站49课 for循环 语法.csproj", "{09D4F86D-B171-4CC8-93E3-BACB50BDCA69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第十一课（B站49课 for循环 语法", "第十一课（for循环 语法\第十一课（B站49课 for循环 语法.csproj", "{09D4F86D-B171-4CC8-93E3-BACB50BDCA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十二课（B站第50课for循环练习", "第十二课（B站第50课for循环练习\第十二课（B站第50课for循环练习.csproj", "{DA6D7572-A0B2-4F9D-9E08-C726221F529D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第十二课（B站第50课for循环练习", "第十二课（B站第50课for循环练习\第十二课（B站第50课for循环练习.csproj", "{DA6D7572-A0B2-4F9D-9E08-C726221F529D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第十三课（for循环的嵌套+乘法口诀", "第十三课（for循环的嵌套\第十三课（for循环的嵌套+乘法口诀.csproj", "{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十四课 （B站第56课 类型转换", "第十四课 （B站第56课 类型转换\第十四课 （B站第56课 类型转换.csproj", "{7623648F-AA01-4F07-8114-35727B078EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十五课（B站57课 for循环的三个练习", "第十五课（B站57课 for循环的三个练习\第十五课（B站57课 for循环的三个练习.csproj", "{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -239,6 +245,18 @@ Global
 		{DA6D7572-A0B2-4F9D-9E08-C726221F529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6D7572-A0B2-4F9D-9E08-C726221F529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6D7572-A0B2-4F9D-9E08-C726221F529D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7623648F-AA01-4F07-8114-35727B078EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7623648F-AA01-4F07-8114-35727B078EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7623648F-AA01-4F07-8114-35727B078EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7623648F-AA01-4F07-8114-35727B078EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -281,6 +299,9 @@ Global
 		{C0D0BB74-A79E-4692-8D5D-CEADD3DE588B} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{09D4F86D-B171-4CC8-93E3-BACB50BDCA69} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{DA6D7572-A0B2-4F9D-9E08-C726221F529D} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
+		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
+		{7623648F-AA01-4F07-8114-35727B078EBD} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
+		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B565BF20-192A-4843-BF01-802C438927A7}
