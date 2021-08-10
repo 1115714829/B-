@@ -62,18 +62,24 @@ namespace 第十五课_B站57课_for循环的三个练习
 
             Console.WriteLine("练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1+2+3+4+5+6=21）结果6");
             int sum = 0;
-            for (int i = 2; i < 100; i += 2)
+            for (int i = 1; i < 100; i++)
             {
                 sum = i;
+                
                 if (sum > 20)
                 {
-                    Console.WriteLine("累加值大于20的当前是是{0}", i);
+                    
+                    Console.WriteLine("大于20的当前数是{0}", i);
                 }
-                if (i > 20)
-                    break;
+                else
+                {
+                    sum += i;
+                }
             }
-
-
         }
+
+
+
     }
 }
+
