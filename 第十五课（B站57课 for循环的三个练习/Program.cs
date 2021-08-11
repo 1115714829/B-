@@ -18,6 +18,7 @@ namespace 第十五课_B站57课_for循环的三个练习
             //循环体：循环录入5人的年龄  输入的数据出现负数或大于100
             //循环条件：i < 5   
             int ci = 0;
+            int su = 0;//岁数
             for (int i = 0; ci < 5; ci++)
             {
                 i = Convert.ToInt32(Console.ReadLine());
@@ -29,15 +30,19 @@ namespace 第十五课_B站57课_for循环的三个练习
                 else
                 {
                     Console.WriteLine("您输入的年龄为{0}", i);
+                    su += i;
+
                 }
             }
+            Console.WriteLine("总年龄为{0}，平均年龄为{1}", su, su / 3);
 
-            //练习2：在while中用break时限要求用户一直输入用户名和密码，只要不是admin、888888 就一直提示要求重新
+
+            //练习2：在while中用break实现要求用户一直输入用户名和密码，只要不是admin、888888 就一直提示要求重新
             //       输入，如果正确则提示登陆成功.
 
             //循环条件：账号密码要输入正确，不正确就一直循环
             //循环体：一直输入账号密码，直到正确
-            Console.WriteLine("练习2：在while中用break时限要求用户一直输入用户名和密码，只要不是admin、888888 就一直提示要求重新输入，如果正确则提示登陆成功");
+            Console.WriteLine("练习2：在while中用break实现要求用户一直输入用户名和密码，只要不是admin、888888 就一直提示要求重新输入，如果正确则提示登陆成功");
             string usename = "";
             string passwd = "";
             do
@@ -61,20 +66,21 @@ namespace 第十五课_B站57课_for循环的三个练习
             //练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1+2+3+4+5+6=21）结果6
 
             Console.WriteLine("练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1+2+3+4+5+6=21）结果6");
-            int sum = 0;
-            for (int i = 1; i < 100; i++)
+            int sum = 0;//相加之和
+            int i1 = 0;
+            int sum2 = 0;
+
+            for (i1 = 1; i1 < 100; i1++)
             {
-                sum = i;
+                sum = i1;
+               // sum2 = sum + i1;
+                if (sum2 > 20)
+                {
+
+                    Console.WriteLine("if循环内，当前i1的值是{0}", i1);
+                    break;
+                }
                 
-                if (sum > 20)
-                {
-                    
-                    Console.WriteLine("大于20的当前数是{0}", i);
-                }
-                else
-                {
-                    sum += i;
-                }
             }
         }
 
@@ -82,4 +88,3 @@ namespace 第十五课_B站57课_for循环的三个练习
 
     }
 }
-
