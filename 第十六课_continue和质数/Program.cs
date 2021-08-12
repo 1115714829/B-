@@ -28,9 +28,9 @@ namespace 第十六课_continue和质数
             int i = 0;
             for (i = 2; i <= 100; i++)
             {
-                for (int j = 2; j <i; j++)
+                for (int j = 2; j < i; j++)
                 {
-                    if (i%j!=0)
+                    if (i % j == 0 && i % 2 != 0 || i % 3 != 0 || i % 4 != 0 || i % 5 != 0 || i % 6 != 0 || i % 7 != 0 || i % 8 != 0 || i % 9 != 0)
                     {
                         i++;
                         continue;
@@ -39,7 +39,7 @@ namespace 第十六课_continue和质数
 
                 }
             }
-            
+
             Console.WriteLine(x);
 
             Console.ReadKey();
