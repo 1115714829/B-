@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十四课 （B站第56�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十五课（B站57课 for循环的三个练习", "第十五课（B站57课 for循环的三个练习\第十五课（B站57课 for循环的三个练习.csproj", "{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "第十六课_continue和质数", "第十六课_continue和质数\第十六课_continue和质数.csproj", "{774BB1B9-29E3-49A1-AE47-05A77DCE2D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -257,6 +259,10 @@ Global
 		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774BB1B9-29E3-49A1-AE47-05A77DCE2D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774BB1B9-29E3-49A1-AE47-05A77DCE2D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774BB1B9-29E3-49A1-AE47-05A77DCE2D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774BB1B9-29E3-49A1-AE47-05A77DCE2D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +308,7 @@ Global
 		{75ECB72C-E68D-4CBB-AADD-C03CFE443C5B} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{7623648F-AA01-4F07-8114-35727B078EBD} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 		{2C2B1432-1D85-4DD0-8EA3-6856A3E52F76} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
+		{774BB1B9-29E3-49A1-AE47-05A77DCE2D18} = {AC0BE81B-E223-4A88-B78A-A9BC0893124A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B565BF20-192A-4843-BF01-802C438927A7}
