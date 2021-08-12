@@ -77,6 +77,9 @@ namespace 第十五课_B站57课_for循环的三个练习
                 if (sum2 > 20)
                 {
 
+
+
+
                     Console.WriteLine("if循环内，当前i1的值是{0}", i1);
                     break;
                 }
