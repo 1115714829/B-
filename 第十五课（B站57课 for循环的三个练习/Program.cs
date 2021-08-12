@@ -63,28 +63,24 @@ namespace 第十五课_B站57课_for循环的三个练习
                 }
             } while (usename != "admin" && passwd != "888888");
             Console.ReadKey();
-            //练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1+2+3+4+5+6=21）结果6
+            //练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1 + 2 + 3 + 4 + 5 + 6 = 21）结果6
 
             Console.WriteLine("练习3: 1~100之间的整数相加，得到累加值大于20的当前数（比如1+2+3+4+5+6=21）结果6");
-            int sum = 0;//相加之和
-            int i1 = 0;
-            int sum2 = 0;
+            int sum = 0;//i赋值给sum
+            int sum2 = 0;//  sum与i的相加之和
+            for (int i = 0; i < 100; i++)
 
-            for (i1 = 1; i1 < 100; i1++)
             {
-                sum = i1;
-               // sum2 = sum + i1;
-                if (sum2 > 20)
+                sum += i;//
+                if (sum > 20)//此时sum2等于21
                 {
-
-
-
-
-                    Console.WriteLine("if循环内，当前i1的值是{0}", i1);
+                    Console.WriteLine("if内 此时的i等于{0}", i);
+                    Console.WriteLine("if内   此时sum等于{0}", sum);
+                    Console.WriteLine("if内   此时sum2等于{0}", sum2);
                     break;
                 }
-                
             }
+            Console.ReadKey();
         }
 
 
