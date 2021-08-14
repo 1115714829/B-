@@ -24,23 +24,29 @@ namespace 第十六课_continue和质数
             //找出 100 内所有的质数
             //质数  :只能被 1 和这个数字本身整除的数字
             //2  3  5  7  9  11  13  17  19  21  23  27 29
-            int x = 0;
             int i = 0;
+            int sum = 0;
             for (i = 2; i <= 100; i++)
             {
-                for (int j = 2; j < i; j++)
+                bool b = true;
+                for (int j = 2; j < i; j++)   //假设i等于5/2
                 {
-                    if (i % j == 0 && i % 2 != 0 || i % 3 != 0 || i % 4 != 0 || i % 5 != 0 || i % 6 != 0 || i % 7 != 0 || i % 8 != 0 || i % 9 != 0)
+                    if (i % j == 0)          //这个条件达不到
                     {
-                        i++;
-                        continue;
+                        b = false;             //达不到就不用显示了，
+                        break;             //直接退出
                     }
-                    x += i;
+                    if (b)                   //上面的if不符合，进入下面的if
+                    {
+                        Console.WriteLine("答：100以内的质数有{0}", i);//条件符合打印出来
+                        sum = i;
 
+                        break;//取到了i的值以后 退出循环。斗则退出来之后进入J++  开始算5/3   5/4   
+                    }
                 }
             }
-
-            Console.WriteLine(x);
+            sum += i;
+            Console.WriteLine("这些质数相加起来的和是", sum);
 
             Console.ReadKey();
 
