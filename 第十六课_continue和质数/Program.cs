@@ -29,24 +29,23 @@ namespace 第十六课_continue和质数
             int sum = 0;
             for (i = 2; i <= 100; i++)
             {
-                //                sum += i;
                 bool b = true;
-                for (int j = 2; j < i; j++)   //假设i等于5/2
+                for (int j = 2; j < i; j++)   
                 {
-                    if (i % j == 0 || i % 3 != 0 && i % 4 != 0 && i % 5 != 0 && i % 6 != 0 && i % 7 != 0 && i % 8 != 0&&i % 9 != 0)          //这个条件达不到
+                    if (i % j == 0)//可以除尽说明不是质数，无需继续算下去
                     {
-                b = false;             //达不到就不用显示了，
-                break;             //直接退出
+                        b = false;             
+                        break;        //所以这里退出了     
+                    }
+                }
+                    if (b)                   
+                    {
+                        Console.WriteLine("答：100以内的质数有{0}", i);//条件符合打印出来
+                        sum += i;
+                    }
+                
             }
-            if (b)                   //上面的if不符合，进入下面的if
-            {
-                Console.WriteLine("答：100以内的质数有{0}", i);//条件符合打印出来
-                sum += i;
-                break;//取到了i的值以后 退出循环。否则退出来之后进入J++  开始算5/3   5/4   
-            }
-        }
-    }
-    Console.WriteLine("这些质数相加起来的和是{0}", sum);
+            Console.WriteLine("这些质数相加起来的和是{0}", sum);
 
             Console.ReadKey();
 
